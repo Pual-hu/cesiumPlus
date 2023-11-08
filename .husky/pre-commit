@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# 提交前代码规范，如eslint,stylelint等。
+# pnpm run test
