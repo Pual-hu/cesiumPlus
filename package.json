@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preinstall":"npx -y only-allow pnpm"
   },
   "dependencies": {
+    "cesium": "^1.111.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
